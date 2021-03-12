@@ -268,8 +268,8 @@ L Transistor_BJT:2N2219 Q1
 U 1 1 604DDAEE
 P 14450 1700
 F 0 "Q1" H 14640 1746 50  0000 L CNN
-F 1 "2N2219" H 14640 1655 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 14650 1625 50  0001 L CIN
+F 1 "SS8050" H 14640 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14650 1625 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 14450 1700 50  0001 L CNN
 	1    14450 1700
 	1    0    0    -1  
@@ -286,8 +286,8 @@ L Transistor_BJT:2N2219 Q2
 U 1 1 604EABA5
 P 14500 2500
 F 0 "Q2" H 14690 2454 50  0000 L CNN
-F 1 "2N2219" H 14690 2545 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-39-3" H 14700 2425 50  0001 L CIN
+F 1 "SS8050" H 14690 2545 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14700 2425 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 14500 2500 50  0001 L CNN
 	1    14500 2500
 	1    0    0    1   
@@ -893,7 +893,7 @@ U 1 1 6048D563
 P 12650 6450
 F 0 "U4" H 12850 7500 50  0000 C CNN
 F 1 "MAX7219" H 12900 7400 50  0000 C CNN
-F 2 "MAX7219:DIL24" H 12600 6500 50  0001 C CNN
+F 2 "MAX7219:SOIC24" H 12600 6500 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 12700 6300 50  0001 C CNN
 	1    12650 6450
 	1    0    0    -1  
@@ -1116,70 +1116,6 @@ F 3 "~" H 2200 9850 50  0001 C CNN
 	1    2200 9850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 9650 0    50   Input ~ 0
-SEGA
-Text GLabel 1500 9750 0    50   Input ~ 0
-SEGB
-Text GLabel 1500 9850 0    50   Input ~ 0
-SEGC
-Text GLabel 1500 9950 0    50   Input ~ 0
-SEGD
-Text GLabel 1500 10050 0    50   Input ~ 0
-SEGE
-Text GLabel 1500 10150 0    50   Input ~ 0
-SEGF
-Text GLabel 1500 10250 0    50   Input ~ 0
-SEGG
-Text GLabel 1550 9550 0    50   Input ~ 0
-SEGDP
-Wire Wire Line
-	1500 9650 2000 9650
-Wire Wire Line
-	1500 9750 2000 9750
-Wire Wire Line
-	1500 9850 2000 9850
-Wire Wire Line
-	1500 9950 2000 9950
-Wire Wire Line
-	1500 10050 2000 10050
-Wire Wire Line
-	1500 10150 2000 10150
-Wire Wire Line
-	1500 10250 2000 10250
-Wire Wire Line
-	1550 9550 2000 9550
-Text GLabel 4500 9650 2    50   Input ~ 0
-DIG1
-Text GLabel 4500 9750 2    50   Input ~ 0
-DIG2
-Text GLabel 4500 9850 2    50   Input ~ 0
-DIG3
-Text GLabel 4500 9950 2    50   Input ~ 0
-DIG4
-Text GLabel 4500 10050 2    50   Input ~ 0
-DIG5
-Text GLabel 4500 10150 2    50   Input ~ 0
-DIG6
-Text GLabel 4500 9550 2    50   Input ~ 0
-DIG0
-Text GLabel 4500 10250 2    50   Input ~ 0
-DIG7
-Wire Wire Line
-	4100 9550 4500 9550
-Wire Wire Line
-	4100 9650 4500 9650
-Wire Wire Line
-	4100 9750 4500 9750
-Wire Wire Line
-	4100 9850 4500 9850
-Wire Wire Line
-	4100 9950 4500 9950
-Wire Wire Line
-	4100 10050 4500 10050
-Wire Wire Line
-	4100 10150 4500 10150
-Wire Wire Line
-	4100 10250 4500 10250
 Wire Wire Line
 	2550 1400 3300 1400
 Wire Wire Line
@@ -1200,7 +1136,7 @@ U 1 1 6054B2AF
 P 6950 9400
 F 0 "H1" V 7000 9800 50  0000 L CNN
 F 1 "MountingHole_Pad" V 6900 9600 50  0000 L CNN
-F 2 "" H 6950 9400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6950 9400 50  0001 C CNN
 F 3 "~" H 6950 9400 50  0001 C CNN
 	1    6950 9400
 	0    1    1    0   
@@ -1211,7 +1147,7 @@ U 1 1 6055665C
 P 6950 9700
 F 0 "H2" V 7000 10100 50  0000 L CNN
 F 1 "MountingHole_Pad" V 6900 9900 50  0000 L CNN
-F 2 "" H 6950 9700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6950 9700 50  0001 C CNN
 F 3 "~" H 6950 9700 50  0001 C CNN
 	1    6950 9700
 	0    1    1    0   
@@ -1222,7 +1158,7 @@ U 1 1 60556B00
 P 6950 9950
 F 0 "H3" V 7000 10350 50  0000 L CNN
 F 1 "MountingHole_Pad" V 6900 10150 50  0000 L CNN
-F 2 "" H 6950 9950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6950 9950 50  0001 C CNN
 F 3 "~" H 6950 9950 50  0001 C CNN
 	1    6950 9950
 	0    1    1    0   
@@ -1233,7 +1169,7 @@ U 1 1 60556DFB
 P 6950 10200
 F 0 "H4" V 7000 10600 50  0000 L CNN
 F 1 "MountingHole_Pad" V 6900 10400 50  0000 L CNN
-F 2 "" H 6950 10200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 6950 10200 50  0001 C CNN
 F 3 "~" H 6950 10200 50  0001 C CNN
 	1    6950 10200
 	0    1    1    0   
@@ -1393,4 +1329,143 @@ F 3 "" H 4600 2350 50  0001 C CNN
 	1    4600 2350
 	1    0    0    -1  
 $EndComp
+Text GLabel 1750 8150 0    50   Input ~ 0
+SEGA
+Text GLabel 1750 8250 0    50   Input ~ 0
+SEGB
+Text GLabel 1750 8350 0    50   Input ~ 0
+SEGC
+Text GLabel 1750 8450 0    50   Input ~ 0
+SEGD
+Text GLabel 1750 8550 0    50   Input ~ 0
+SEGE
+Text GLabel 1750 8650 0    50   Input ~ 0
+SEGF
+Text GLabel 1750 8750 0    50   Input ~ 0
+SEGG
+Wire Wire Line
+	1750 8150 2250 8150
+Wire Wire Line
+	1750 8250 2250 8250
+Wire Wire Line
+	1750 8350 2250 8350
+Wire Wire Line
+	1750 8450 2250 8450
+Wire Wire Line
+	1750 8550 2250 8550
+Wire Wire Line
+	1750 8650 2250 8650
+Wire Wire Line
+	1750 8750 2250 8750
+Text GLabel 4000 8150 2    50   Input ~ 0
+DIG1
+Text GLabel 4000 8250 2    50   Input ~ 0
+DIG2
+Text GLabel 4000 8350 2    50   Input ~ 0
+DIG3
+Text GLabel 4000 8450 2    50   Input ~ 0
+DIG4
+Text GLabel 4000 8550 2    50   Input ~ 0
+DIG5
+Text GLabel 4000 8650 2    50   Input ~ 0
+DIG6
+Text GLabel 4000 8050 2    50   Input ~ 0
+DIG0
+Text GLabel 4000 8750 2    50   Input ~ 0
+DIG7
+Wire Wire Line
+	3600 8050 4000 8050
+Wire Wire Line
+	3600 8150 4000 8150
+Wire Wire Line
+	3600 8250 4000 8250
+Wire Wire Line
+	3600 8350 4000 8350
+Wire Wire Line
+	3600 8450 4000 8450
+Wire Wire Line
+	3600 8550 4000 8550
+Wire Wire Line
+	3600 8650 4000 8650
+Wire Wire Line
+	3600 8750 4000 8750
+Wire Wire Line
+	4100 10250 4500 10250
+Wire Wire Line
+	4100 10150 4500 10150
+Wire Wire Line
+	4100 10050 4500 10050
+Wire Wire Line
+	4100 9950 4500 9950
+Wire Wire Line
+	4100 9850 4500 9850
+Wire Wire Line
+	4100 9750 4500 9750
+Wire Wire Line
+	4100 9650 4500 9650
+Wire Wire Line
+	4100 9550 4500 9550
+Text GLabel 5700 10400 2    50   Input ~ 0
+DIG7
+Text GLabel 5700 9700 2    50   Input ~ 0
+DIG0
+Text GLabel 5700 10300 2    50   Input ~ 0
+DIG6
+Text GLabel 5800 10600 0    50   Input ~ 0
+DIG5
+Text GLabel 1500 10050 0    50   Input ~ 0
+DIG4
+Text GLabel 5700 10000 2    50   Input ~ 0
+DIG3
+Text GLabel 1500 9850 0    50   Input ~ 0
+DIG2
+Text GLabel 1500 9750 0    50   Input ~ 0
+DIG1
+Wire Wire Line
+	1550 9550 2000 9550
+Wire Wire Line
+	1500 10250 2000 10250
+Wire Wire Line
+	1500 10150 2000 10150
+Wire Wire Line
+	1500 10050 2000 10050
+Wire Wire Line
+	1500 9950 2000 9950
+Wire Wire Line
+	1500 9850 2000 9850
+Wire Wire Line
+	1500 9750 2000 9750
+Wire Wire Line
+	1500 9650 2000 9650
+Text GLabel 4500 10250 2    50   Input ~ 0
+SEGDP
+Text GLabel 1500 9950 0    50   Input ~ 0
+SEGG
+Text GLabel 1500 9650 0    50   Input ~ 0
+SEGF
+Text GLabel 1500 10150 0    50   Input ~ 0
+SEGE
+Text GLabel 1550 9550 0    50   Input ~ 0
+SEGD
+Text GLabel 5050 8550 0    50   Input ~ 0
+SEGC
+Text GLabel 1500 10250 0    50   Input ~ 0
+SEGB
+Text GLabel 5050 8350 0    50   Input ~ 0
+SEGA
+Text GLabel 1800 8050 0    50   Input ~ 0
+SEGDP
+$Comp
+L akn_misc:DISP_LED_MAT_8x8_COM_CAT D?
+U 1 1 60652E1D
+P 2250 8850
+F 0 "D?" H 2925 9937 60  0000 C CNN
+F 1 "DISP_LED_MAT_8x8_COM_CAT" H 2925 9831 60  0000 C CNN
+F 2 "" H 2350 8800 60  0000 C CNN
+F 3 "" H 2350 8800 60  0000 C CNN
+	1    2250 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 8050 2250 8050
 $EndSCHEMATC
