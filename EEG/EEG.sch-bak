@@ -1097,23 +1097,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x08_Female J3
 U 1 1 604BA9B3
-P 3900 9950
-F 0 "J3" H 3928 9926 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 3928 9835 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3900 9950 50  0001 C CNN
-F 3 "~" H 3900 9950 50  0001 C CNN
-	1    3900 9950
+P 3350 9950
+F 0 "J3" H 3000 9300 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 2600 9400 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3350 9950 50  0001 C CNN
+F 3 "~" H 3350 9950 50  0001 C CNN
+	1    3350 9950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J2
 U 1 1 604BC715
-P 2200 9850
-F 0 "J2" H 2228 9826 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 2228 9735 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2200 9850 50  0001 C CNN
-F 3 "~" H 2200 9850 50  0001 C CNN
-	1    2200 9850
+P 2750 9850
+F 0 "J2" H 2300 10400 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 2000 10300 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2750 9850 50  0001 C CNN
+F 3 "~" H 2750 9850 50  0001 C CNN
+	1    2750 9850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1269,15 +1269,7 @@ Wire Notes Line
 	10950 4650 15200 4650
 Text Notes 11000 4750 0    50   ~ 0
 MAX7219 LED Matrix Driver
-Wire Notes Line
-	5350 9100 5350 10750
-Wire Notes Line
-	5350 10750 850  10750
-Wire Notes Line
-	850  10750 850  9100
-Wire Notes Line
-	850  9100 5350 9100
-Text Notes 900  9200 0    50   ~ 0
+Text Notes 1000 9250 0    50   ~ 0
 8x8 LED Matrix Connectors
 NoConn ~ 9200 4800
 NoConn ~ 9200 5200
@@ -1292,7 +1284,6 @@ NoConn ~ 9200 6300
 NoConn ~ 9200 6400
 NoConn ~ 9200 6500
 NoConn ~ 9200 6700
-NoConn ~ 9200 6800
 NoConn ~ 9200 6900
 NoConn ~ 9200 7000
 NoConn ~ 9200 7100
@@ -1329,143 +1320,117 @@ F 3 "" H 4600 2350 50  0001 C CNN
 	1    4600 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 8150 0    50   Input ~ 0
-SEGA
-Text GLabel 1750 8250 0    50   Input ~ 0
-SEGB
-Text GLabel 1750 8350 0    50   Input ~ 0
-SEGC
-Text GLabel 1750 8450 0    50   Input ~ 0
-SEGD
-Text GLabel 1750 8550 0    50   Input ~ 0
-SEGE
-Text GLabel 1750 8650 0    50   Input ~ 0
-SEGF
-Text GLabel 1750 8750 0    50   Input ~ 0
-SEGG
 Wire Wire Line
-	1750 8150 2250 8150
+	3550 10250 3950 10250
 Wire Wire Line
-	1750 8250 2250 8250
+	3550 10150 3950 10150
 Wire Wire Line
-	1750 8350 2250 8350
+	3550 10050 3950 10050
 Wire Wire Line
-	1750 8450 2250 8450
+	3550 9950 3950 9950
 Wire Wire Line
-	1750 8550 2250 8550
+	3550 9850 3950 9850
 Wire Wire Line
-	1750 8650 2250 8650
+	3550 9750 3950 9750
 Wire Wire Line
-	1750 8750 2250 8750
-Text GLabel 4000 8150 2    50   Input ~ 0
-DIG1
-Text GLabel 4000 8250 2    50   Input ~ 0
-DIG2
-Text GLabel 4000 8350 2    50   Input ~ 0
-DIG3
-Text GLabel 4000 8450 2    50   Input ~ 0
-DIG4
-Text GLabel 4000 8550 2    50   Input ~ 0
-DIG5
-Text GLabel 4000 8650 2    50   Input ~ 0
-DIG6
-Text GLabel 4000 8050 2    50   Input ~ 0
-DIG0
-Text GLabel 4000 8750 2    50   Input ~ 0
+	3550 9650 3950 9650
+Wire Wire Line
+	3550 9550 3950 9550
+Text GLabel 2050 9950 0    50   Input ~ 0
 DIG7
-Wire Wire Line
-	3600 8050 4000 8050
-Wire Wire Line
-	3600 8150 4000 8150
-Wire Wire Line
-	3600 8250 4000 8250
-Wire Wire Line
-	3600 8350 4000 8350
-Wire Wire Line
-	3600 8450 4000 8450
-Wire Wire Line
-	3600 8550 4000 8550
-Wire Wire Line
-	3600 8650 4000 8650
-Wire Wire Line
-	3600 8750 4000 8750
-Wire Wire Line
-	4100 10250 4500 10250
-Wire Wire Line
-	4100 10150 4500 10150
-Wire Wire Line
-	4100 10050 4500 10050
-Wire Wire Line
-	4100 9950 4500 9950
-Wire Wire Line
-	4100 9850 4500 9850
-Wire Wire Line
-	4100 9750 4500 9750
-Wire Wire Line
-	4100 9650 4500 9650
-Wire Wire Line
-	4100 9550 4500 9550
-Text GLabel 5700 10400 2    50   Input ~ 0
-DIG7
-Text GLabel 5700 9700 2    50   Input ~ 0
+Text GLabel 3950 10250 2    50   Input ~ 0
 DIG0
-Text GLabel 5700 10300 2    50   Input ~ 0
+Text GLabel 2050 9650 0    50   Input ~ 0
 DIG6
-Text GLabel 5800 10600 0    50   Input ~ 0
+Text GLabel 2050 10150 0    50   Input ~ 0
 DIG5
-Text GLabel 1500 10050 0    50   Input ~ 0
+Text GLabel 2100 9550 0    50   Input ~ 0
 DIG4
-Text GLabel 5700 10000 2    50   Input ~ 0
+Text GLabel 3950 9950 2    50   Input ~ 0
 DIG3
-Text GLabel 1500 9850 0    50   Input ~ 0
+Text GLabel 2050 10250 0    50   Input ~ 0
 DIG2
-Text GLabel 1500 9750 0    50   Input ~ 0
+Text GLabel 3950 9750 2    50   Input ~ 0
 DIG1
-Wire Wire Line
-	1550 9550 2000 9550
-Wire Wire Line
-	1500 10250 2000 10250
-Wire Wire Line
-	1500 10150 2000 10150
-Wire Wire Line
-	1500 10050 2000 10050
-Wire Wire Line
-	1500 9950 2000 9950
-Wire Wire Line
-	1500 9850 2000 9850
-Wire Wire Line
-	1500 9750 2000 9750
-Wire Wire Line
-	1500 9650 2000 9650
-Text GLabel 4500 10250 2    50   Input ~ 0
+Text GLabel 3950 9850 2    50   Input ~ 0
 SEGDP
-Text GLabel 1500 9950 0    50   Input ~ 0
+Text GLabel 3950 9550 2    50   Input ~ 0
 SEGG
-Text GLabel 1500 9650 0    50   Input ~ 0
+Text GLabel 3950 9650 2    50   Input ~ 0
 SEGF
-Text GLabel 1500 10150 0    50   Input ~ 0
+Text GLabel 3950 10050 2    50   Input ~ 0
 SEGE
-Text GLabel 1550 9550 0    50   Input ~ 0
+Text GLabel 2050 10050 0    50   Input ~ 0
 SEGD
-Text GLabel 5050 8550 0    50   Input ~ 0
+Text GLabel 3950 10150 2    50   Input ~ 0
 SEGC
-Text GLabel 1500 10250 0    50   Input ~ 0
+Text GLabel 2050 9850 0    50   Input ~ 0
 SEGB
-Text GLabel 5050 8350 0    50   Input ~ 0
+Text GLabel 2050 9750 0    50   Input ~ 0
 SEGA
-Text GLabel 1800 8050 0    50   Input ~ 0
-SEGDP
+Wire Wire Line
+	2050 9650 2550 9650
+Wire Wire Line
+	2050 9750 2550 9750
+Wire Wire Line
+	2050 9850 2550 9850
+Wire Wire Line
+	2050 9950 2550 9950
+Wire Wire Line
+	2050 10050 2550 10050
+Wire Wire Line
+	2050 10150 2550 10150
+Wire Wire Line
+	2050 10250 2550 10250
+Wire Wire Line
+	2100 9550 2550 9550
+Wire Notes Line
+	5350 9100 850  9100
+Wire Notes Line
+	850  9100 850  10750
+Wire Notes Line
+	850  10750 5350 10750
+Wire Notes Line
+	5350 9100 5350 10750
 $Comp
-L akn_misc:DISP_LED_MAT_8x8_COM_CAT D?
-U 1 1 60652E1D
-P 2250 8850
-F 0 "D?" H 2925 9937 60  0000 C CNN
-F 1 "DISP_LED_MAT_8x8_COM_CAT" H 2925 9831 60  0000 C CNN
-F 2 "" H 2350 8800 60  0000 C CNN
-F 3 "" H 2350 8800 60  0000 C CNN
-	1    2250 8850
+L Device:R_Small_US R?
+U 1 1 60531F6E
+P 9850 7350
+F 0 "R?" H 9918 7396 50  0000 L CNN
+F 1 "2K" H 9918 7305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 9850 7350 50  0001 C CNN
+F 3 "~" H 9850 7350 50  0001 C CNN
+	1    9850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60532570
+P 9850 7050
+F 0 "D?" V 9889 6932 50  0000 R CNN
+F 1 "LED" V 9798 6932 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9850 7050 50  0001 C CNN
+F 3 "~" H 9850 7050 50  0001 C CNN
+	1    9850 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 7200 9850 7250
+Wire Wire Line
+	9850 7450 9850 7750
+Wire Wire Line
+	9850 6800 9850 6900
+$Comp
+L power:GND #PWR?
+U 1 1 6053257E
+P 9850 7750
+F 0 "#PWR?" H 9850 7500 50  0001 C CNN
+F 1 "GND" H 9855 7577 50  0000 C CNN
+F 2 "" H 9850 7750 50  0001 C CNN
+F 3 "" H 9850 7750 50  0001 C CNN
+	1    9850 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 8050 2250 8050
+	9200 6800 9850 6800
 $EndSCHEMATC
