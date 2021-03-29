@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Mohit\Documents\KiCad\EEG_Kicad\EEG\EEG.sch</source>
-    <date>16/03/2021 20:45:43</date>
+    <source>C:\Users\mohit\Documents\Kicad\EEG_Kicad\EEG\EEG.sch</source>
+    <date>3/29/2021 12:18:38 PM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -36,7 +36,7 @@
       <tstamp>6047E084</tstamp>
     </comp>
     <comp ref="R4">
-      <value>2K</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -124,7 +124,7 @@
       <tstamp>604EABA5</tstamp>
     </comp>
     <comp ref="R7">
-      <value>2K</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -188,7 +188,7 @@
       <tstamp>60580826</tstamp>
     </comp>
     <comp ref="R3">
-      <value>2K</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
