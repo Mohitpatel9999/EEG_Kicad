@@ -1,0 +1,19 @@
+Reference, Quantity, Value, Footprint,Digi key link
+C1 ,1,2.2uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,https://www.digikey.com/en/products/detail/murata-electronics/GCJ31ML81C225MA01L/11618622
+C10 C11 C12 C13 C14 C15 C16 C17 ,8,100nF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B104KBFXPJE/11487741
+C2 C3 C9 ,3,10uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,https://www.digikey.com/en/products/detail/kyocera-international-inc-electronic-components/CM316X7R106K16AT/10197144
+C4 C5 C6 C7 C8,5,0.1uF,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B104KBP5PNF/7320539
+D1 ,1,D_Schottky_Small,Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/avx-corporation/SD1206S040S0R5/3749497
+D2 D3 ,2,LED,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120BS75000/4489933
+J1 ,1,USB_B_Micro,Connector_USB:USB_Micro-B_Molex-105017-0001,https://www.digikey.com/en/products/detail/molex/1050170001/2350832?s=N4IgTCBcDaIIwAYCsC4HYC0DtxAXQF8g
+J2 J3 ,2,Conn_01x08_Female,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC081LFBN-RC/810147
+Q1 Q2 ,2,SS8050,Package_TO_SOT_SMD:SOT-23,https://www.digikey.com/en/products/detail/comchip-technology/SS8050-G/6138901
+R12 ,1,2K,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RTAN1206BKE2K00/6602221
+R3 R4 R7 R10 R11 R8 R9 ,7,10k,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/riedon/ASC1206-10KF1/7398740
+R1 R2 R5 R6 ,4,0R,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73Z2BTTD/10248274
+SW1 SW2 ,2,SW_Push,Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG,
+U1 ,1,AMS1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,
+U2 ,1,FT231XS,Package_SO:SSOP-20_3.9x8.7mm_P0.635mm,
+U3 ,1,ESP32-PICO-D4,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm,
+U4 ,1,MAX7219,MAX7219:SOIC24,
+R1 R2 R5 R6 ,4,20R,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206JT20R0/1757495
